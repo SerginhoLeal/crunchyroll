@@ -1,0 +1,42 @@
+.bodySignIn{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerSign{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  background: rgba(86, 86, 86, 0.1);
+  border-radius: 500px;
+  backdrop-filter: blur(2px);
+}
+
+.inputSignIn{
+  margin: 5px;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(86, 86, 86, 0.1);
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  transition: 300ms ease-in;
+  color: #ffffff;
+}
+
+.hider{
+  width: 0%;
+  height: 0%;
+  background-color: transparent;
+  border: 0px;
+  transition: 300ms ease-in;
+}

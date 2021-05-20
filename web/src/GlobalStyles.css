@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/***************** - Texto Global - **********************/
+.fontGlobal{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.texto{
+  font-size: 15px;
+}
+
+.title{
+  font-size: 18px;
+}
+/***************** - Texto Global - **********************/
+
+/***************** - ScrollBar - **********************/
+
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #dad7d7;
+}
+/***************** - ScrollBar - **********************/
+
+/************* Button ****************/
+button{
+  margin: 5px;
+  padding: 9px 25px;
+  background-color: #5158DD;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  outline: none;
+  transition: .3s;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #5158DDaa;
+  transition: .3s;
+}
+/************* Button ****************/

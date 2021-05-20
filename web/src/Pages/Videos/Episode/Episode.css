@@ -1,0 +1,100 @@
+.bodySelect{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.backgroundEpisode{
+  position: fixed;
+  bottom: 0;
+  margin:0;
+  width: 100%;
+  height: 101vh;
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.showEpisode{
+  z-index: 2;
+  overflow-y: scroll;
+  position: fixed;
+  top:0px;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background-color: #000000aa;
+  backdrop-filter: blur(10px);
+  border-radius: 10px 0px 0px 10px;
+  /* opacity: 0; */
+  transition: 0.5s;
+}
+
+.hoverList{
+  transform: translateX(95%);
+}
+
+.hoverList:hover{
+  transition: 0.5s;
+  transform: translateX(0);
+}
+
+/* .slide{
+  opacity: 1;
+  transition: 0.5s;
+} */
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin: 10px; */
+}
+
+.container .card{
+  /* cursor: pointer; */
+  position: relative;
+  background: #000000aa;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 10px 30px;
+  border-radius: 10px;
+  text-decoration:none;
+}
+
+.container .card .imgHome{
+  border-radius: 10px 10px 0px 0px;
+  /* position: absolute; */
+  top:0;
+  /* left: 0; */
+  width: 100%;
+  /* height: 100%; */
+  /* background-size: cover; */
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+/* .blocoParaVer{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 10px;
+} */
+
+@media screen and (max-width: 1200px){
+  .backgroundEpisode{
+    width: auto;
+  }
+  .showEpisode{
+    width: 90%;
+  }
+}

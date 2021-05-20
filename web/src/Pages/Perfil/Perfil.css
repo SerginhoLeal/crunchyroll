@@ -1,0 +1,41 @@
+.bodyPerfil{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .card{
+  position: relative;
+  background: #000000aa;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 310px;
+  margin: 10px 30px;
+  border-radius: 10px;
+  text-decoration:none;
+}
+
+.container .card .imgHome{
+  border-radius: 10px 10px 0px 0px;
+  top:0;
+  width: 100%;
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
